@@ -48,10 +48,9 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
         setUpMenuBar()
         setUpCollectionView()
         setUpNavBarButtons()
-
-        
-        
+  
     }
+   
     
     
     func setUpCollectionView() {

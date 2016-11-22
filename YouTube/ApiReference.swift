@@ -46,6 +46,8 @@ class ApiReference: NSObject {
                     let video = Video()
                     video.title = (dict["title"] as? String?)!
                     video.thumbNailImage = dict["thumbnail_image_name"] as? String
+                    video.numberOfViews = dict["number_of_views"] as? NSNumber
+                    
                     
                     let channelDict = dict["channel"]  as! [String: AnyObject]
                     let channel = Channel()

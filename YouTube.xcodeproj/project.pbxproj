@@ -19,6 +19,9 @@
 		68F755F91DDF79B20018C624 /* TrendingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F755F81DDF79B20018C624 /* TrendingCell.swift */; };
 		68F755FB1DDF7B520018C624 /* SubscriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F755FA1DDF7B520018C624 /* SubscriptionCell.swift */; };
 		68F755FD1DDF7B940018C624 /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F755FC1DDF7B940018C624 /* AccountCell.swift */; };
+		68FC4ACC1DE1BA6900751DA4 /* VideoLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FC4ACB1DE1BA6900751DA4 /* VideoLauncher.swift */; };
+		68FC4AD11DE308F000751DA4 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 68FC4ACF1DE308F000751DA4 /* pause.png */; };
+		68FC4AD21DE308F000751DA4 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 68FC4AD01DE308F000751DA4 /* play.png */; };
 		68FCD8741DD3539600EB9415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FCD8731DD3539600EB9415 /* AppDelegate.swift */; };
 		68FCD8761DD3539600EB9415 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FCD8751DD3539600EB9415 /* ViewController.swift */; };
 		68FCD8791DD3539600EB9415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68FCD8771DD3539600EB9415 /* Main.storyboard */; };
@@ -38,6 +41,9 @@
 		68F755F81DDF79B20018C624 /* TrendingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrendingCell.swift; sourceTree = "<group>"; };
 		68F755FA1DDF7B520018C624 /* SubscriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionCell.swift; sourceTree = "<group>"; };
 		68F755FC1DDF7B940018C624 /* AccountCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
+		68FC4ACB1DE1BA6900751DA4 /* VideoLauncher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoLauncher.swift; sourceTree = "<group>"; };
+		68FC4ACF1DE308F000751DA4 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		68FC4AD01DE308F000751DA4 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		68FCD8701DD3539600EB9415 /* YouTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68FCD8731DD3539600EB9415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68FCD8751DD3539600EB9415 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +72,7 @@
 				68F755F81DDF79B20018C624 /* TrendingCell.swift */,
 				68F755FA1DDF7B520018C624 /* SubscriptionCell.swift */,
 				68F755FC1DDF7B940018C624 /* AccountCell.swift */,
+				68FC4ACB1DE1BA6900751DA4 /* VideoLauncher.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -124,6 +131,8 @@
 				68FCD8771DD3539600EB9415 /* Main.storyboard */,
 				68FCD87C1DD3539600EB9415 /* LaunchScreen.storyboard */,
 				6800D9221DD5F8CF003F2156 /* Assets.xcassets */,
+				68FC4ACF1DE308F000751DA4 /* pause.png */,
+				68FC4AD01DE308F000751DA4 /* play.png */,
 				68FCD87F1DD3539600EB9415 /* Info.plist */,
 			);
 			path = YouTube;
@@ -190,7 +199,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				68FCD87E1DD3539600EB9415 /* LaunchScreen.storyboard in Resources */,
+				68FC4AD21DE308F000751DA4 /* play.png in Resources */,
 				6800D9231DD5F8CF003F2156 /* Assets.xcassets in Resources */,
+				68FC4AD11DE308F000751DA4 /* pause.png in Resources */,
 				68FCD8791DD3539600EB9415 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +216,7 @@
 				68FCD8761DD3539600EB9415 /* ViewController.swift in Sources */,
 				68F755F71DDF52160018C624 /* FeedCell.swift in Sources */,
 				68F755F91DDF79B20018C624 /* TrendingCell.swift in Sources */,
+				68FC4ACC1DE1BA6900751DA4 /* VideoLauncher.swift in Sources */,
 				6800D9211DD5E8E9003F2156 /* Video.swift in Sources */,
 				68F755F51DDDDAEC0018C624 /* ApiReference.swift in Sources */,
 				6800D9271DDC54C2003F2156 /* SettingCell.swift in Sources */,

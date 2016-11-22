@@ -30,11 +30,13 @@ class VideoCell: BaceCell {
             titleLabel.numberOfLines = 2
             setUpThumbNail()
             setUpProfileImage()
-            guard let videoName = video?.channel?.name, let numberOfViews = video?.numberOfViews else { return }
+            guard let videoName = video?.channel?.name else { return }
+            guard let numberOfViews = video?.numberOfViews else { return }
             let numberFormatter = NumberFormatter()
             numberFormatter.numberStyle = .decimal
+            guard let unwrappefNumberOfViews = numberFormatter.string(from: numberOfViews) else { return }
             
-            subTitleTextView.text = "\(videoName) - \(numberFormatter.string(from: numberOfViews)) - 2 years ago"
+            subTitleTextView.text = "\(videoName) - \(unwrappefNumberOfViews) - 2 years ago"
             //15.
             if let title = video?.title {
                 let size = CGSize(width: frame.width - 16 - 44 - 8 - 16, height: 1000)
